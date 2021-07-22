@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.kienct.gieoque.ui.home.HomeFragment"
+        android:label="Trang chủ"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_explanation"
+        android:name="com.kienct.gieoque.ui.gallery.ExplanationFragment"
+        android:label="Thuật toán"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.kienct.gieoque.ui.slideshow.HistoryFragment"
+        android:label="Lịch sử"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_browse"
+        android:name="com.kienct.gieoque.ui.BrowseFragment"
+        android:label="Tra cứu"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_about_me"
+        android:name="com.kienct.gieoque.ui.CreditFragment"
+        android:label="Tác giả"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
