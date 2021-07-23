@@ -1,6 +1,6 @@
-package com.kienct.gieoque
+package com.kienct.gieoque.entities
 
-class Milisecond (private val ms: String) {
+class Millisecond (private val ms: String) {
     private val batQuai = listOf("000", "111", "011", "101", "001", "110", "010", "100")
     fun gieoQueChu() : String{
         return getThuongQuai().plus(getHaQuai())
