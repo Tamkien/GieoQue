@@ -335,17 +335,80 @@ class ResultActivity : AppCompatActivity() {
                 "\"Vô Vọng\" tức không nói càn, làm càn. Đạo của \"Vô Vọng\" vô cùng lớn. Quẻ Vô Vọng miêu tả cảnh tai họa bất ngờ như sét đánh vô duyên vô cớ hoặc sự đụng xe xảy ra bất ngờ hay bị trượt chân ngã. Những chuyện này gọi là rủi ro. Kinh Dịch dùng cụm từ \"Thiện Hạ Lôi Hành\" (trên trời sấm sét đánh xuống) để hình dung quẻ Vô Vọng. Theo người xưa thì tiếng sấm sét là để nuôi dưỡng vạn vật, giúp vạn vật thích nghi với môi trường. Quẻ Vô Vọng khuyên người ta không được nói càn làm càn. Sách \"Sử ký\" của Tư Mã Thiên chép quẻ này là \"Vô Vọng\" (tức không còn hy vọng) vì ở cảnh tù túng như cá chậu chim lồng.\n" +
                 "Luận đoán tài vận:\n" +
                 "Đường tài vận của bạn có thể bị trục trặc bởi lý do không đâu. Cái họa vô vọng đến bất thình lình như sét đánh ngang tai, khiến bạn không thể đối phó được. Nhưng ở trên đời này phúc họa đều có nguyên nhân sâu xa. Nguyên nhân này không phải do tiền kiếp gây tạo ra mà do nhiều đời trước tích tụ, cũng giống như bạn đạt đến thành công một phần do công lao của bạn, nhưng phần lớn là do công sức của nhiều thế hệ tổ tiên của bạn tạo ra, bạn chỉ là người thu hoạch mà thôi."))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
+        hexagrams.add(Hexagram("011000", "QUẺ SƠN THIÊN ĐẠI SÚC", R.drawable.i26, "\"Trận Thế Đắc Khai\" – Không còn trở ngại.\n" +
+                "\"Đại súc\" có nghĩa là \"sức chứa lớn\", vì thế có hình tượng \"thế trận được mở\".\n" +
+                "\"Trận thế đắc khai\" là chuyện Quảng Thành Tử bị vây khốn trong trận Đăng hỏa, sai tướng Phan Thiên Ấn tế lễ mở trận Quần Tiên, phá tan trận Đăng Hỏa. Người gieo được quẻ này có điềm \"không còn trở ngại\".\n" +
+                "Hình tượng của quẻ Đại Súc nói:\n" +
+                "Buồn bã khiến mặt mày ủ rũ, việc khó luôn canh cánh bên lòng. Từ nay mở ra trận thế mới, tùy ý hoạt động không còn lo gì nữa.\n" +
+                "Lời đoán: Gặp vận tốt, người đi có tin về, xuất hành đại cát, mọi sự thuận lợi.\n" +
+                "Lời bàn: Đại súc là đã có đủ lực lượng, đủ sức mạnh để hành động. Phàm làm bất cứ việc gì đều phải chuẩn bị đầy đủ. Chuẩn bị đầy đủ thì thành công. Có chuẩn bị đủ các mặt thì mới triển khai công việc, bởi vì không thể làm ẩu làm bừa, dẫn đến làm hỏng, làm sai. Vì vậy, dù gieo được quẻ tốt nhưng không làm theo hướng dẫn của quẻ, không ứng nghiệm.\n" +
+                "Lời giải: Đã hết trở ngại.\n" +
+                "\"Súc\" có nghĩa là \"chứa\", \"để dành\", \"Đại Súc\" có nghĩa là \"để dành lớn\", \"chứa nhiều\". Kinh Dịch dùng cụm từ \"Thiên tại sơn trung\" (trời ở trong núi) để chỉ quẻ Đại Súc, ý chỉ núi còn cao hơn trời. Vì núi cao lớn như vậy, nó có thể chứa rất nhiều sinh vật. Quẻ Đại Súc muốn bảo ta rằng cần phải tích lũy tiền của, kiến thức, nhân đức. Lời tượng quẻ này có câu \"Quân tử dĩ đa thức, tiền ngôn vãng hành, dĩ súc kỳ đức\" có nghĩa người quân tử tri thức uyên bác, học vấn cao, dựa vào lý quẻ này đi đến đâu cũng được hoan nghênh, được nuôi dưỡng.\n" +
+                "Thời cổ đại, mọi người đều trồng lúa, khi sức sản xuất phát triển thì một số người tách khỏi lao động chân tay làm việc trí óc. Vì vậy, lời quẻ này có câu \"Bất gia thực, cát\" tức \"không phải lao động chân tay, không cần ăn cơm nhà, tốt lành\".\n" +
+                "Luận đoán tài vận:\n" +
+                "Bạn đang kinh doanh buôn bán phát triển, sự nghiệp thuận lợi. Bạn càng tích lũy kiến thức kinh nghiệm phong phú bao nhiêu, công việc của bạn càng phát đạt bấy nhiêu. Điều bạn nên nhớ là phải tích lũy tiền bạc, kiến thức, kỹ thuật mới phù hợp với quẻ Đại Súc."))
+        hexagrams.add(Hexagram("011110", "QUẺ SƠN LÔI DI", R.drawable.i27, "\"Vị Thủy Phỏng Hiền\" - Bĩ cực thái lai.\n" +
+                "\"Di\" có nghĩa là \"nuôi dưỡng\", ăn uống là tự nuôi, vì vậy nó có hình tượng \"đến thăm người hiền ở sông Vị\".\n" +
+                "\"Vị thủy phỏng hiền\" là chuyện Khương Thái Công thuở hàn vi thường ngồi câu ca 1be6n bờ sông Vị. Chu Văn Vương nghe tin, đích thân đến thăm, mời ra giúp nước. Thái Công lên xe về triều, được phong làm quốc phụ. Người gieo được quẻ này có điềm \"Bĩ cực thái lai\".\n" +
+                "Lời đoán: Vị thủy phỏng hiền, đại cát đại lợi, mọi việc như ý, làm ăn gặp vận.\n" +
+                "Lời bàn: Muốn phát triển phải nuôi dưỡng chí khí, tập hợp lực lượng, xây dựng căn cứ. Muốn tồn tại lâu dài phải bảo dưỡng nguyên khí, bổ sung cái thiếu, sửa chữa chỗ khuyết. Vua Văn Vương sở dĩ lập nên sự nghiệp nhà Tây Chu là nhờ ở chỗ nuôi dưỡng nhân tài, thi hành nhân đức.\n" +
+                "Lời giải: Bĩ cực thái lai.\n" +
+                "\"Di\" có nghĩa là \"nuôi dưỡng\", \"bảo dưỡng\". Quẻ Di liên quan đến cái miệng của chúng ta.\n" +
+                "Kinh Dịch dùng cụm từ \"Sơn Lôi Di\" để nhắc nhở chúng ta: \"Quân tử dĩ thận ngôn ngữ, tiết ẩm thực\" tức quân tử dựa vào lý quẻ này, thận trọng nói năng, ăn uống tiết độ. Trên thực tế không phải chỉ nói năng ăn uống thận trọng mà mọi việc đều phải thận trọng. Chỉ cần hơi sơ suất là hỏng việc ngay. Tai họa do thiên nhiên gây ra còn có thể phòng tránh, tai họa do con người gây ra, khó có thể tránh được. Cổ nhân có câu \"Bệnh vào từ miệng, họa ra từ mồm\".\n" +
+                "Luận đoán tài vận:\n" +
+                "Đường tài lộc của bạn khá phát triển, bởi quẻ Di có tượng ăn uống chè chén lớn. Nhưng càng thắng lớn, càng lãi to, càng phải thận trọng. Thường tai họa hay xảy ra sau khi \"đại thắng lợi\".\n" +
+                "Bạn đã qua cơn \"bĩ cực\" đang bắt đầu \"thái lai\", tuy vậy bạn vẫn phải cần thận trọng trong ăn nói, làm việc. Bạn hãy suy nghĩ cẩn thận nhất là việc đầu tư phát triển sản xuất, kinh doanh."))
+        hexagrams.add(Hexagram("100001", "QUẺ TRẠCH PHONG ĐẠI QUÁ", R.drawable.i28, "\"Dạ Mộng Kim Tiền\" – Không vẫn hoàn không.\n" +
+                "\"Đại quá\" có nghĩa là \"vượt mức quá nhiều\". Quá mức, quá nhiều là tai họa, vì thế nó có hình tượng của \"nằm ngủ ban đêm mơ thấy tiền bạc\".\n" +
+                "\"Dạ Mộng Kim Tiền\" là chuyện kẻ luôn nghĩ đến tiền nhưng không kiếm được, đêm nằm mơ thấy tiền vàng rất nhiều, lấy được rất dễ, tỉnh dậy vẫn tay trắng. Kẻ gieo phải quẻ này có điềm \"không vẫn hoàn không\".\n" +
+                "Hình tượng của quẻ Đại Quá nói:\n" +
+                "Đêm nằm mơ thấy được rất nhiều vàng bạc, tỉnh dậy không thấy một chinh. Hiện chỉ nên an phận, còn tơ tưởng chỉ mệt óc nhọc lòng.\n" +
+                "Lời đoán: Làm việc bất thành, cầu tài không được, hôn nhân không thành. Mọi sự bất thành, phải nhẫn nại, chớ có mơ mộng.\n" +
+                "Lời bàn: Phương ngôn có câu: \"Tốt quá hóa lốp\". Việc gì quá đều có hại. Lượng đổi đến mức quá sẽ phá vỡ kết cấu nội tại của sự vật hiện tượng. Vì vậy, mọi việc đều làm có chừng có mực thì mới thành công.\n" +
+                "Lời giải: Không vẫn hoàn không.\n" +
+                "\"Quá\" là vượt qua giới hạn, \"đại quá\" là vượt qua giới hạn quá nhiều. Phàm cái gì cũng hỏng, vì thế quẻ này có tượng nằm mơ ban đêm thấy vàng nhưng tỉnh dậy không có một xu. Quẻ Đại Quá."))
+        hexagrams.add(Hexagram("101101", "QUẺ THUẦN KHẢM", R.drawable.i29, "\"Thủy Đế Lao Nguyệt\" - Uổng công phí sức.\n" +
+                "Khảm có nghĩa là \"hố\" là \"lõm\" là \"trũng\", nghĩa bong là uổng công vô ích. Vì vậy mà có hình tượng \"đáy sông mò trăng\".\n" +
+                "\"Thủy Đế Lao Nguyêt\" là chuyện mặt trăng chiếu xuống đáy sông, rất đẹp. Có người đi tới, nhìn xuống sông, tưởng là châu báu, liền nhảy xuống mò, nhưng chỉ uổng công phí sức. Kẻ gieo phải quẻ này, có điềm uổng công phí sức.\n" +
+                "Hình tượng của quẻ Khảm nói: Một vầng trăng sáng chiếu xuống sông / Chỉ thấy bóng mình chẳng thấy tông / Ngu nhân tưởng ngọc liền nhảy xuống / Đáy sông mò nguyệt, chỉ uổng công /\n" +
+                "Quẻ Khảm là quẻ thuần Thủy, ở trên là nước, ở dưới cũng là nước. Trong mắt người xưa, nạn lụt là thiên tai, nguy hiểm, chẳng khác gì động đất. Trong kinh dịch luôn chú trọng tính nguy hiểm của quẻ Khảm. Khuyên \"biết nguy hiểm thì không còn là nguy hiểm\", hơn nửa còn dụng nó để phòng thủ thành trì (đào hào nước xung quanh thành để phòng thủ) Thánh nhân gọi quẻ này là quẻ tập Khảm, vì thấy nó hai lần hiểm. Trong hiểm có hiểm. Nên nhắc chúng ta phải hết sức cẩn thận., cảnh giác, đề phòng nguy hiểm, năm xung tháng hạn thì coi như thoát hiểm.\n" +
+                "Gieo quẻ này đường tài lộc không hanh thông, đứng trước nguy cơ khó khăn, khủng hoảng. Nên duy trì kinh doanh mức bình thường, nên chú ý việc, sự liên quan đến sông nước. Cổ ngử có câu: Của mất coi như không mất gì / Sức khỏe mất là mất mát lớn / Đức tin mất là mất tất cả /."))
+        hexagrams.add(Hexagram("010010", "QUẺ THUẦN LY", R.drawable.i30, "\"Thiên Quan Tứ Phúc\" \"Phát Phúc Sinh tài\".\n" +
+                "Ly có nghĩa là \"bám\", âm bám vào dương, vì vậy nó có hình tượng \"thần phúc lộc ban phúc\". Thiên quan tứ phúc được coi là thần phúc lộc, ngự trong vận mệnh người nào, người đó gặp hung hóa cát, biến họa thành phúc, mọi việc như ý. Người gieo được quẻ này có điềm phát phúc sinh tài.\n" +
+                "Hình tượng của quẻ Ly: Thiên quan chiếu mạng, chủ lộc nhiều, buôn bán có lợi lớn, làm việc gì cũng có lợi.\n" +
+                "Lời đoán: Mọi việc hanh thông, ra ngoài vui vẻ, tai qua nạn khỏi, bệnh tật tiêu tan.\n" +
+                "Quẻ Ly là quẻ Thuần Hỏa. Kinh dịch có lời: Ly giả, lệ dã, nghĩa rằng: Quẻ Ly, đẹp thay! Thời cổ, ba chữ Ly (chia ly), chữ Lệ (hoa lệ), chữ Lê (trong từ buổi bình minh) đều có nghĩa là quang minh (sang sủa). Ba chữ này phát âm hoàn toàn giống nhau, có thể dùng thay nhau trong mọi trường hợp. Ví sao chữ Ly và chữ Lệ lại chú giải thay nhau? Điều này quan hệ đến lửa, vì lửa là đại biểu cho sự sáng và nhiệt tình. Ly có nghĩa là bám, âm bám vào dương, nên có tượng thiên nhiên ban phúc."))
+        hexagrams.add(Hexagram("100011", "QUẺ TRẠCH SƠN HÀM", R.drawable.i31, "\" Manh Nha Xuất Thổ\" \"Thời vận đã đến\"\n" +
+                "Hàm có nghĩa là giao cảm, thiên địa giao cảm, vạn vật sinh, vì thế có hình tượng: Mầm cây nhô lên mặt đất. Manh Nha Xuất Thổ là chuyện có cây trong đất, đến lúc giao mùa thu - đông, mục đồng đốt cỏ, mầm cỏ đều bị vùi lấp. Khi mùa xuân về, cỏ cây lại hồi sinh, mầm cỏ đội đất mọc lên. Kẻ giao được quẻ này có điềm \"Thời vận đã đến\".\n" +
+                "Hình tượng của quẻ Hàm: Vận đen hoàng kim mất / Vận đỏ lộc tiến vào / Vận phát khiến lòng dạ vui mừng / tâm hồn rộng mở /\n" +
+                "Lời đoán: Mưu sự tất thành, xuất hành có lợi / Của mất lại về / Bệnh tật tiêu tan.\n" +
+                "Hàm có nghĩa là giao cảm, cảm thụ, cảm hứng, Kinh dịch dung cụm từ: Thiên Thượng Hữu Trạch\" để miêu tả quẻ này. Hồ trên Núi (Đoài trên Cấn) Vì sao có chuyện này? Núi cao, áp suất không khí thấp, nước đóng băng mùa đông. Khi mùa xuân về, nước tan trên đỉnh núi chảy xuống khe núi tạo thành hồ. Những hồ này đầu tiên cảm nhận được không khí mùa xuân. Mọi vật đều tác động đến nhau qua cảm thụ mà biết. Thiên địa giao cảm, vạn vật mới sinh sôi. Quẻ này lợi xuất hành, lợi về thành thật, thuận hòa. Chỉ có chí thành mới cảm hóa được lòng người."))
+        hexagrams.add(Hexagram("110001", "QUẺ LÔI PHONG HẰNG", R.drawable.i32, "\" Ngư Lai Chàng Võng\" \"Vạn sự như ý\"\n" +
+                "Hằng có nghĩa là thường xuyên và lâu dài, nên nó có hình tượng cá va vào lưỡi.\n" +
+                "Ngư lai chàng võng là chuyện một ông lão đánh cá đến bờ sông quăng lưới. Cá tự lao vào lưới. Ông lão đánh cá đánh được nhiều cá, trong lòng vô cùng phấn khởi. Người gieo được quẻ này có điềm \"Vạn sự như ý\".\n" +
+                "Hình tượng của quẻ Hằng: Ngư ông đánh cá gặp vận đỏ, cá tự chui đầu vào lưới.\n" +
+                "Lời thơ của quẻ: Cá tự vào lưới, thật là may / Bệnh tật tiêu tan, người đi về / Giao dịch xuất hành đều được lợi. / Mưu sự tất thành, mọi việc thông. /\n" +
+                "Lời đoán: Xuất hành co lợi. Bệnh tật tự khỏi. Cãi cọ tự mất. Kinh doanh buôn bán thuận lợi.\n" +
+                "Hằng có nghĩa là lâu dài, mãi mãi. Kinh dịch dùng câu: \"Quân tử dĩ lập bất dịch phương\", (Quân tử dựa lý quẻ này xác lập đạo - lý tưởng - không bao giờ thay đổi lập trường để chỉ quẻ Hằng. Hằng là đạo trời đất. Đạo trời đất là âm dương giao hòa, trường tồn. Quân tử xác định đạo này mới có thể trường cửu. Đạo trường cửu tức là âm phải theo dương. Quân tử giữ đạo trung hiếu, thực hành nhân, nghĩa lễ trí tín, tiểu nhân không như vậy. Đạo của tiểu nhân là đạo tham lam, đố kỵ, hại người. Quân tử dù chết cũng không thay đổi lập trường, không tham lam, không độc ác, không hại người. Nhưng quẻ Hằng cũng có nhược điểm. Đó là cố chấp, bảo thủ, ngoan cố, cứng nhắc, không thích ứng trào lưu, tự cao tự đại, không nhạy bén.\n" +
+                "Đạo của quẻ Hằng dương phải nhường âm, âm phải theo dương thì mới lâu dài. Hòa thuận là cái gốc của thành công. Cổ nhân có câu \"hỏa khí sinh tài\" , bạn nên giữ hòa khí với bạn hợp tác, với nhân viên mới đúng với đạo lâu dài của quẻ Hằng.\n" +
+                "Gieo được quẻ Hằng, tài vận rất tốt, có thể lâu dài, ổn định. Bạn đã có thu nhập ổn định., song cần chú ý thuận theo trào lưu, thay đổi phương thức kinh doanh phù hợp."))
+        hexagrams.add(Hexagram("000011", "QUẺ THIÊN SƠN ĐỘN", R.drawable.i33, "\" Nông Vân tế Nhật \", \"Mưu sự bất thành\"\n" +
+                "Thiên / Sơn = Độn. Nghĩa quẻ: \"Nồng Vân Tế Nhật\" (Mưu sự bất thành). Độn tức là tránh, là trốn, tượng là mây dầy che trời.\n" +
+                "Mặt trời đang chiếu sáng, bỗng có một đám mây đen ùn ùn kéo đến, ánh sáng bị che lấp, mọi việc đang bình thường bỗng rối loạn, hoảng hốt, kẻ nhanh tay cướp, biến, kẻ nhanh chân vừa chạy vừa vơ vét, mọi việc hổn loạn, không còn phép tắc, không ai đủ tư cách làm chủ được tình hình bảo với bầy đàn là mây sẽ tan và trời sẽ lại sáng.Quẻ này, đoán rằng: Mất của khó thấy, giao dịch khó khăn, góp vốn bất lợi, mọi sự bất thành, nhân tình thế thái hung họa khôn lường.\n" +
+                "Dịch học dùng cụm từ \"Thiên hạ hữu sơn\" (dưới trời có núi) để miêu tả quẻ Độn. Lời kinh giảng thêm: Quân tử dựa lý quẻ này, xa bọn tiểu nhân, không cần độc ác, chỉ cần nghiêm khắc là được. (Độn, quân tử di viễn tiểu nhân, bất ác nhi nghiêm). Đạo của quẻ Độn là né tránh, bỏ đi, rút lui. Đối với kẻ tiểu nhân, nếu dùng thủ đoạn độc ác, dữ tợn, cáu gắt, chúng sẽ oán thù. Khi khí âm đang thịnh, khí dương phải suy. Lúc đó, quân tử phải biết rút lui."))
+        hexagrams.add(Hexagram("110000", "QUẺ LÔI THIÊN ĐẠI TRÁNG", R.drawable.i34, "\" Công sư đắc mộc\", (Vận khí sắp lên)\n" +
+                "Đại tráng có nghĩa là thịnh vượng, công việc hưng thịnh, vì vậy có hình tượng \"người thơ mộc được gỗ\".\n" +
+                "Người gieo được quẻ này là điềm \"Vận khí sắp đến\".\n" +
+                "Giảng: Tráng có nghĩa là khỏe mạnh, Đại Tráng có nghĩa là rất khỏe mạnh. Khỏe mạnh hàm nghĩa thịnh vượng. Song, cũng đề phòng \"tốt quá hóa lốp\" . Dịch học có câu: Đại tráng, quân tử dĩ phi lễ vật lý. (Quẻ Đại tráng chỉ người quân tử dựa lý quẻ này, không làm những chuyện vô lễ). Của phi nghĩa không tham. Việc phi nghĩa không làm. Tiền phi nghĩa không lấy. Chuyện phi nghĩa không nghe. Quan hệ phi nghĩa không giao lưu.\n" +
+                "Quẻ Đại Tráng mang nhiều yếu tố xung đột và trái nghịch. Thánh nhân dùng quẻ này để răn dậy chúng ta cố tránh xung đột, không làm điều sai, điều phi nghĩa, điều xấu hổ. Của cải tiền bạc có bền hay không phụ thuộc vào việc kiếm được bằng con đường chính đáng. \"Tiền phi nghĩa dù làm nhà ở cũng không ở được\"."))
+        hexagrams.add(Hexagram("010111", "QUẺ HỎA ĐỊA TẤN", R.drawable.i35, "\" Sư Địa Đắc Kim\", (Vận đỏ sắp đến)\n" +
+                "Tấn có nghĩa là tiến. Trước tiến lên, sau có ích. Vì vậy có hình tượng \"cuốc đất được vàng\". Sư địa đắc kim là chuyện một người nông dân cuốc đất, đào bờ, bỗng nhiên cuốc được một cục vàng. Người gieo được quẻ này có điềm \"vận đỏ sắp đến\". Tấn có nghĩa là lên chức, thăng cấp, đồng thời cũng có nghĩa là gắng vươn lên, tích cực tiến lên. Dịch học dùng cụm từ \"Minh xuất địa thượng\" (Mắt trời mọc trên đất) để chỉ quẻ Tấn. Mặt trời mọc trên đất, càng lên cao càng sáng, đó là cái ý tiến lên.\n" +
+                "Dịch học dùng quẻ tấn nhắc nhở chúng ta muốn tiến bộ, phải như mặt trời mọc, ra sức leo lên cao. Cho nên dịch nói \"Tấn tiến dã\" (quẻ tấn có nghĩa là tiến vậy) . Lời kinh còn khuyên: Hỏa tại địa thượng / Tấn, quân tử dĩ tự chiêu minh đức\" (Lửa ở trên đất là quẻ Tấn. Người quân tử dựa lý quẻ này tự làm sáng chữ \"đức\" của mình.\n" +
+                "Quẻ Tấn là quẻ chủ động, tích cực, vì vậy chớ nên do dự, nhanh chóng thực hiện kế hoạch đã đề ra."))
+        hexagrams.add(Hexagram("111010", "QUẺ ĐỊA HỎA MINH DI", R.drawable.i36, "\" Quá Hà sách kiều\" - Vô cùng khó khăn.\n" +
+                "Minh Di có nghĩa là \"nhìn thấy kẻ bị thương\" (Minh là nhìn thấy / Di là kẻ bị thương), vì thế có hình tượng qua sông phá cầu.\n" +
+                "\" Quá Hà sách kiều\" là chuyện một người định qua sông, nhưng không muốn người khác đi trước mình, không muốn người khác qua sông nên tranh đi trước, qua sông liền phá cầu, khiến cho người không qua sông được. Kẻ gieo được quẻ này có điềm khó khăn, nếu không muốn nói là vô cùng khó khăn.\n" +
+                "Gieo phải quẻ này chớ nên manh động. Đường tài lộc của bạn đang bị cản trở. Minh Di là bi thương nên tài lộc của bạn có thể bị hao tổn trầm trọng. Đường kinh doanh buôn bán trì trệ, tối tăm. Không nên đầu tư kinh doanh phiêu lưu, liều lĩnh. Tốt nhất nên tu thân chờ cho thời Minh Di này qua đi, phát triển kinh doanh cũng chưa muộn. Bạn cần hết sức đề phòng kẻ tiểu nhân hèn hạ, nhân cơ hội thế đạo tối tăm làm hại."))
         hexagrams.add(Hexagram("", "", 0, ""))
 
     }
