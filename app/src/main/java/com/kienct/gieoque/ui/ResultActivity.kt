@@ -1,7 +1,9 @@
 package com.kienct.gieoque.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.kienct.gieoque.R
 import com.kienct.gieoque.entities.Hexagram
 
@@ -9,7 +11,26 @@ class ResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
-        val hexagrams : MutableList<Hexagram> = ArrayList()
+        val hexagrams = addHexes()
+        val hexID = intent.getStringExtra("hexID")
+        val tvSolarDate = findViewById<TextView>(R.id.txtSolarCalendar)
+        tvSolarDate.text = intent.getStringExtra("solarCal")
+        val tvLunarDate = findViewById<TextView>(R.id.txtLunarCalendar)
+        tvLunarDate.text = intent.getStringExtra("lunarCal")
+        val ivHexImage = findViewById<ImageView>(R.id.ivHexImage)
+        val tvHexName = findViewById<TextView>(R.id.txtHexName)
+        val tvHexDescription = findViewById<TextView>(R.id.txtHexDescription)
+        for (hex in hexagrams) {
+            if (hexID == hex.id) {
+                ivHexImage.setImageResource(hex.imgSrc)
+                tvHexName.text = hex.name
+                tvHexDescription.text = hex.description
+            }
+        }
+    }
+
+    private fun addHexes(): MutableList<Hexagram> {
+        val hexagrams: MutableList<Hexagram> = ArrayList()
         hexagrams.add(Hexagram("000000", "QUẺ THUẦN CÀN", R.drawable.i01, "\"Khốn Long Đắc Thủy\" – Thời vận đã đến.\n" +
                 "\"Càn\" tượng trưng \"Trời\", mặt đối lập với \"Đất\".\n" +
                 "\"Quẻ Càn\" là quẻ mở đầu mang ý nghĩa \"Khốn Long Đắc Thủy\" tức \"Rồng bị cùng khốn đang thiếu nước\", ví như đại hạn gặp mưa rào, không gì tốt bằng.\n" +
@@ -493,6 +514,6 @@ class ResultActivity : AppCompatActivity() {
         hexagrams.add(Hexagram("", "", 0, ""))
         hexagrams.add(Hexagram("", "", 0, ""))
         hexagrams.add(Hexagram("", "", 0, ""))
-
+        return hexagrams
     }
 }
