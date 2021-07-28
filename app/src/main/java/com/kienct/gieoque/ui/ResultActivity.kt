@@ -1,6 +1,7 @@
 package com.kienct.gieoque.ui
 
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -20,6 +21,8 @@ class ResultActivity : AppCompatActivity() {
         val ivHexImage = findViewById<ImageView>(R.id.ivHexImage)
         val tvHexName = findViewById<TextView>(R.id.txtHexName)
         val tvHexDescription = findViewById<TextView>(R.id.txtHexDescription)
+        val btnBack = findViewById<Button>(R.id.btnBack)
+        btnBack.setOnClickListener { finish() }
         for (hex in hexagrams) {
             if (hexID == hex.id) {
                 ivHexImage.setImageResource(hex.imgSrc)
@@ -505,14 +508,53 @@ class ResultActivity : AppCompatActivity() {
                 "Đạo củ quẻ Tỉnh (giếng): Uống mãi không cạn / Vơi lại đầy / Đầy không tràn.\n" +
                 "Lời bàn: Tinh thần phấn chấn, phúc lộc đều tăng, thanh danh nổi tiếng, vạn sự hanh thông. Tuy nhiên, vận tốt đã đến, nếu không cố gắng cũng chẳng thành danh. Xưa nay chỉ có người tu thân tích đức học hành thì khi vận đến mới thành công.\n" +
                 "Gieo được quẻ này, đường tài lộc phụ thuộc vào tư tưởng. Không nên quá cầu toàn, đòi hỏi tận thiện, tận mỹ. Mọi việc đạt được thành công 70 - 80% là tốt rồi. Trên đời không có người thập toàn thập mỹ, càng không có việc thập toàn thập mỹ. Ví như, hàng hóa cần đẹp, tốt, chất lượng, nhưng phải rẻ, thực dụng, hợp thời."))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
-        hexagrams.add(Hexagram("", "", 0, ""))
+        hexagrams.add(Hexagram("100010", "QUẺ TRẠCH HỎA CÁCH", R.drawable.i49, "Hán Miêu Đắc Thủy - Vận tốt đã đến.\n" +
+                "Cách có nghĩa là cải cách, đổi mới, hung biến thành cát, vì vậy có hình tượng là mầm cây được nước. Hán Miêu Đắc Thủy là chuyện mầm cây do không mưa mà bị khô héo. May mà mây đen kéo đến, mưa to xối xả, mầm cây được nước phơi phới mọc lên. Kẻ gieo được quẻ này là có điềm vận tốt đã đến. Mầm cây bị hạn được nước mưa, mọc xanh tốt, giao dịch, cầu tài rất khá, hôn nhân, góp vốn đều như ý, bệnh tật, kiện tụng tiêu tan. Xuất hành đại hỉ, của mất lại về, người đi có tin, buôn bán đắc lợi..\n" +
+                "Cách là thay đổi, thay cũ đổi mới. Cái cũ hỏng nát phải nên thay. Kinh dịch dùng cụm từ Trạch Trung Hữu Hỏa chỉ quẻ Cách. Trong đầm hồ có lửa là chỉ suối nước nóng. Suối nước nóng có axít có thể làm lông và thịt còn lại trên da mất đi, đó là phương pháp thuộc da. Vì vậy mới có từ Cách Tân / Đổi mới. Mục đích của đổi mới là để mọi việc hanh thông tốt đẹp. Trời đất bốn mùa thay đổi, cây cối mới phát triển. Thay đồi là việc lớn, đòi hỏi phải là người có tài, làm việc cẩn thận thì việc cải cách mới thành công. Đã cải cách phải thay đổi triệt để mới có tác dụng.\n" +
+                "Gieo được quẻ Cách, đường tài vận cần cải cách về mọi mặt"))
+        hexagrams.add(Hexagram("010001", "QUẺ HỎA PHONG ĐỈNH", R.drawable.i50, "Ngư ông đắc lợi - Nhất cử lưỡng tiện.\n" +
+                "Đỉnh là dụng cụ nấu nướng, nấu ăn để nuôi dưỡng hiền tài. Vì vậy, nó có hình tượng người đánh cá được lợi. Ngư ông đắc lợi là chuyện một ngư ông đánh cá bên hồ thấy chim oanh mổ con trai, con trai ngậm lại giữ chặt mỏ chim oanh không chịu nhả. Ngư ông đi tới, tóm được cả hai, vô cùng đắc ý. Người geo được quẻ này có điềm Nhất Cử Lưỡng Tiện (một công, đôi việc)Lời đoán: ra đi đắc lợi, giao dịch tất thành, cầu tài có lộc, hôn nhân vui vẻ, kiện tụng bệnh tật đều tiêu tan, buôn bán phát tài. Nhất cử lưỡng tiên là may mắn gấp đôi. Hai sự việc phải là hai việc giống nhau thì mới hay. Nếu hai sự việc trái ngược nhau như ăn hỏi và giỗ kỵ cùng làm một ngày sẽ dẫn đến hậu quả vô cùng tai hại.\n" +
+                "Đỉnh có nghĩa là cái vạc, một dụng cụ nấu nướng, chế biến thức ăn sống thành thức ăn chín, cái rắn thành cái mềm. Kinh dịch nói: Đỉnh, nguyên cát hanh (quẻ Đỉnh, căn bản hanh thông). Quẻ này mang đến sự tốt lành, hanh thông. Lời kinh còn viết: Mộc thượng hữu hỏa / quân tử dĩ chính vị ngưng mệnh (Trên cây có lửa là quẻ Đỉnh, người quân tử dựa vào quẻ này để làm đúng ngôi vị, suy nghĩ về sứ mệnh). Quẻ Đỉnh còn hàm nghĩa chính quyền vững vàng ổn định. Ngày xưa Tần Thủy Hoàng sau khi thống nhất Trung Quốc đã tập trung vũ khí của 6 nước thua trận đúc 9 cái đỉnh, tượng trưng cho 9 châu, để ghi công cho mình.\n" +
+                "Gieo được quẻ Đỉnh, tài lộc rất tốt.Tính của quẻ này là nhún thuận, sáng suốt, vì vậy phải biết kiềm chế dục vọng, thuận theo lẽ phải mà làm thì sẽ thành công."))
+        hexagrams.add(Hexagram("110110", "QUẺ THUẦN CHẤN", R.drawable.i51, "Kim chung dạ chàng - Mọi sự thành công. Chấn có nghĩa là động là chấn động, là làm cho kinh hoàng trăm dặm. Vì vậy có tượng là chuông vàng ngân vang trong đêm. Chuyện rằng: Một chiếc chuông vàng mai một lâu ngày, bỗng một hôm được treo cao, nửa đêm đánh một tiếng, tiếng chuông ngân vang, gieo được quẻ này có điềm mọi sự thành công.\n" +
+                "Chấn còn hàm nghĩa sấm sét. Đức của sấm sét là: Sấm có tiếng nhưng không có lực, ai cũng sợ, nhưng không giết ai bao giờ.\n" +
+                "Lời đoán: Cầu danh như ý, mọi việc tất thành, của mất lại về, người đi có tin, kinh doanh đắc lợi.\n" +
+                "Lời bàn: Chuông vàng thì ngân vang, người có tài thì như câu nói \"Hữu xạ tự nhiên hương\".\n" +
+                "Lời giải mọi việc thành công. Đức tu thân là nhân nghĩa, nhu thuận, khiêm cung, cầu thị. Quẻ Chấn có tượng phấn chấn, kinh sợ, biết lo sợ thì mới có thể được phúc. Biết lo sợ thì tự sửa mình, giữ mình vào khuôn phép. Bản thân quẻ Chấn đã có tính chất hanh (đạo hanh thông) nên quẻ Chấn còn nhắc nhở \"nói ít làm nhiều\", chớ sấm to, mưa nhỏ, chém gió.\n" +
+                "Nhấn mạnh: Quẻ Chấn còn hàm ý trước dễ sau khó, nên phải tránh đầu voi đuôi chuột, phát triển quá nhanh, tạo thành kinh doanh bong bóng, dễ nổ vỡ, sấm có tiếng, nhưng không có lực là vậy."))
+        hexagrams.add(Hexagram("011011", "QUẺ THUẦN CẤN", R.drawable.i52, "Ải Nhân Cấu Táo - Mọi việc bất thuận. Cấn có nghĩa là ngăn, là dừng lại, ngăn chặn không cho tiến, vì thế có hình tượng Anh lùn hái táo. Anh lùn muốn ăn táo, nhưng táo trên cây cao không sao lấy được. Gieo được quẻ này là \"mọi việc bất thuận\".\n" +
+                "Lời đoán của quẻ Cấn: Đi không đến được, kinh doanh trục trặc, hôn nhân không thuận, góp vốn không thành, tranh cãi kiện tụng liên miên. Vì thế mọi việc phải luôn cẩn trọng đề phòng, tránh xung đột là thượng sách.\n" +
+                "Lời bàn: táo chín trên cây ai chẳng muốn hái, người xinh đẹp ai chẳng muốn làm quen, song người năng lực không có, tiền tài ít, dù có muốn cũng không thể.\n" +
+                "Lời giải: Cấn có nghĩa là dừng lại. Tiến lên cần có sức lực lớn, nhưng dừng lại còn cần lực lớn hơn. Con người không dừng lại được là vì dục vọng quá lớn. Lời kinh viết: Quẻ Cấn có nghĩa là dừng, lúc đáng dừng thì dừng, lúc đáng làm thì làm, làm hay không làm không để mất thời cơ. Đó là cái đạo sáng suốt vậy. Núi đè lên Núi là quẻ thuần Cấn / núi non trùng điệp là tượng của quẻ Cấn, vì vậy lý thuận là: Không làm việc gì vượt quá quyền, quá sức, quá lực của mình.\n" +
+                "Gieo được quẻ này, đường tài lộc vất vả như leo núi, càng lên cao càng khó trèo. Phải hết sức cố gắng, kiên trì nhẫn nại tiếp tục leo núi. Trong kinh doanh buôn bán phải phòng ngừa \"thằng lùn\" không hái được táo, thù dai. Thằng Lùn là người cản trở công cuộc leo núi vốn đã khó khăn vất vả. Phải dừng đúng lúc dừng mới không té xuống vực."))
+        hexagrams.add(Hexagram("001011", "QUẺ PHONG SƠN TIỆM", R.drawable.i53, "Hành tẩu bạc băng - Trứng để đầu đẳng. Tiệm có nghĩa là tiến từng bước, vì vậy nó có hình tượng đi trên băng mỏng. Hành tẩu bạc băng là chỉ người qua sông mùa đông. Đi đến giữa sông băng mỏng, vô cùng nguy hiểm. Anh ta vô cùng sợ hãi, rón rén đi từng bước một. Gieo được quẻ này có điềm trứng để đầu đẳng.\n" +
+                "Lời đoán: Mọi việc nguy hiểm, làm ăn không thuận, quan hệ phải dĩ hoa vi quí..\n" +
+                "Lời bàn: Mọi việc hết sức thận trọng, nên làm theo phương châm tiến dần từng bước. Chớ manh động, dù thời cơ thuận lợi cũng phải cảnh giác. Chớ cậy nhiều tiền của mà khinh xuất, coi thường.\n" +
+                "Lời giải: Tiệm có nghĩa là đi từng bước một, tiến từ từ từng bước một. Trên núi có cây là quẻ Tiệm. Người quân tử dựa vào quẻ này mà thực hành nhân đức, hoàn thiện tục lệ. Chỉ có thể thực hành nhân đức mới có thể vượt qua được nguy hiểm trong đời.\n" +
+                "Luận đoán tài vận: Gieo phải quẻ này, tuy có nguy cơ thua lỗ, nhưng chỉ cần hết sức thận trọng, làm việc cẩn thận, không quá nôn nóng trong kinh doanh buôn bán là có thể yên tâm. Nếu công việc cần quyết đoán, để chậm là mất thời cơ, cần phải tham khảo ý kiến người khác rồi mới nên quyết định. Từng bước, từng bước sẽ vượt qua được mọi khó khăn mà thành tựu."))
+        hexagrams.add(Hexagram("110100", "QUẺ LÔI TRẠCH QUY MUỘI", R.drawable.i54, "Duyên mộc cầu ngư - Mưu sự bất thành. Quy muội có nghĩa là thiếu nữ theo trưởng nam, âm dương bất giao, vì vậy có hình tượng \"leo cây tìm cá\", Muốn bắt cá, leo cây làm sao tìm được cá? Đó là điềm bất thành.\n" +
+                "Lời đoán: Làm việc chưa đến, việc ngược đời, mưu sự bất thành.\n" +
+                "Lời bàn: Âm dương không giao hòa, mọi việc trắc trở, thời vận không thông, dù cố gắng cũng uổng công phí sức, chỗ tìm không đúng thì tìm suốt đời không ra, đối tượng không thuận, dù có tiềm lực to lớn như thế nào cũng không thành.\n" +
+                "Lời giải: Uổng công vô ích. Quy muội có nghĩa là em gái út về nhà chồng, có hai mặt nghĩa của quẻ: Em gái út về nhà chồng / và em gái út đã lấy chồng, về nhà mẹ đẻ. Cảnh tượng đó trong dịch là trên đầm có sấm. Người đánh cá ra giữa hồ đánh cá, gặp sấm chớp, giông gió, phải về tay không.\n" +
+                "Luận đoán tài vận: Gieo phải quẻ này, tài vận không tốt. Phải thực hành triệt để tiết kiệm, kiềm chế chi tiêu. Mọi vay mượn, cầm cố, hùn hạp để phát triển, mở rộng, khuyếch trương kinh doanh buôn bán đều thất bại. Nên dừng lại, cầu thị, học hỏi, chờ thời chưa muộn."))
+        hexagrams.add(Hexagram("110010", "QUẺ PHONG LÔI HỎA", R.drawable.i55, "Cổ Kinh Trùng Minh - Vận tốt trở lại.\n" +
+                "Phong có nghĩa là lớn, lấy sáng mà động, vì vậy nó có hình tượng gương cổ sáng lại. Gieo được quẻ này, có điềm vận tốt trở lại.\n" +
+                "Lời bàn: Gương đã bỏ xó lâu ngày, nay lại ược dùng, thật may mắn. Thời vận trở lại, tuy có thể không bằng ngày xưa, nhưng vẫn là đại phúc.\n" +
+                "Lời giải: Vận tốt trở lại. Phong có nghĩa là to lớn, thịnh vượng, vì vậy, Kinh dịch nói: Phong - đại giã / Quẻ Phong là lớn vậy. Nhưng quẻ phong còn dùng lời kinh nhắc nhở ta mọi việc phải suy xét tỏ tường đến chân tơ, kẽ tóc. Khi của cải bắt đầu có nhiều, sinh ra tranh chấp. Cổ nhân có câu: Cộng khổ dễ, đồng cam khó. Trước khi cộng tác, hùn hạp, cần minh bạch rõ ràng lời lãi, ăn chia, tránh tranh chấp kiện tụng sau này. Kinh dịch dùng cụm từ: Lôi điện giai chí (sấm chớp cùng nổi lên) để chỉ quẻ Phong. Thời cổ Lội / Điện có nghĩa là tư pháp, là hình phạt. Quẻ nhắc chúng ta phải công bằng nếu không khó tránh khỏi kiện cáo.\n" +
+                "Lời đoán tài vận: Gieo được quẻ này, đường tài vận khá tốt. Vấn đề quan trọng là có ăn chia với nhau sòng phẳng công bằng, tuyệt đối hay không? Không vì cái lợi nhỏ mà hỏng việc lớn.Phân chia chỉ cần hơi lệch chút là sinh chuyện. Kinh doanh kỵ nhất là chuyện kiện tụng. Nếu rơi vào vụ kiện phải nhanh chóng thoát khỏi. Ngay cả thằng kiện cũng rất hung. Phải học cách nhân nhượng để không ai kiện mình, như vậy mới tránh khỏi tai họa."))
+        hexagrams.add(Hexagram("010011", "QUẺ HỎA SƠN LỮ", R.drawable.i56, "Túc Điểu Phần sào - Việc làm không thành / Mưu sự bất thành.\n" +
+                "Lữ có nghĩa là ở trọ / Ở nhờ, không thể tự do như nhà mình được, vì vậy có hình tượng chim bị đốt tổ. Gieo phải quẻ này có điềm việc làm không thành. Hình tượng quẻ Lữ: Chim làm tổ trên cành cây cao, con người dùng lửa đốt tổ, chim phải đi lang thang.\n" +
+                "Lời đoàn: Xuất hành bất lợi / Người đi không về / Của mất không tìm thấy / Cầu tài không được / Kiện tụng lung tung / Buôn bán thua lỗ.\n" +
+                "Lời bàn: Gieo phải quẻ này, nên xin âm dương loại bỏ, nếu không mọi việc uổng công phí sức. Nơi dương gian, xin là việc của dân, nhưng cho lại là việc của quan, dân và quan đều phải có lòng hướng thiện, thì việc mới nên.\n" +
+                "Lời giải: Mưu sự bất thành. Lữ có nghĩa là đi ra ngoài / lữ hành. Dịch nói: Lữ giả / khách dã (kẻ đi ra ngoài là ở trọ, ở nhờ vậy). Lời kinh dùng câu: Sơn thượng hữu hỏa / trên núi có lửa để chí quẻ Lữ. Lửa trên núi là cảnh mặt trời lặn hoặc mọc. Thời xưa Lữ hành là việc gian khổ. Trời vừa sáng đã phải lên đường, đến khi mặt trời lặn mới tìm chổ trọ, cuộc sống vất vưởng không yên ổn. Lời kinh nói: Túc điểu phần sào / Lữ nhân tiên tiếu hậu hào diêu / (Chim bị đốt tổ, lữ khách đầu tiên thì cười, sau thì kêu gào). Lữ khách ban đầu vui vẻ, sau kêu khổ vì gian lao.\n" +
+                "Luận đoán tài vận: Gieo phải quẻ Lữ, tài vận khó hanh thông, nhiều gian nan vất vả. Lữ chỉ sự mới bắt đầu, việc khó khổ chỉ mới bắt đầu, cần kiên nhẫn trải qua, không bi quan chán nản. Nhấn mạnh, chớ nên khuyếch trương kinh doanh buôn bán."))
+        hexagrams.add(Hexagram("", "QUẺ ", R.drawable.i51, ""))
+        hexagrams.add(Hexagram("", "QUẺ ", R.drawable.i51, ""))
+        hexagrams.add(Hexagram("", "QUẺ ", R.drawable.i51, ""))
+        hexagrams.add(Hexagram("", "QUẺ ", R.drawable.i51, ""))
+        hexagrams.add(Hexagram("", "QUẺ ", R.drawable.i51, ""))
+        hexagrams.add(Hexagram("", "QUẺ ", R.drawable.i51, ""))
+        hexagrams.add(Hexagram("", "QUẺ ", R.drawable.i51, ""))
         hexagrams.add(Hexagram("", "", 0, ""))
         return hexagrams
     }
