@@ -12,18 +12,18 @@ import com.kienct.gieoque.R
 
 class ExplanationFragment : Fragment() {
 
-    private lateinit var galleryViewModel: GalleryViewModel
+    private lateinit var explanationViewModel: ExplanationViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        galleryViewModel =
-                ViewModelProvider(this).get(GalleryViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_gallery, container, false)
+        explanationViewModel =
+                ViewModelProvider(this).get(ExplanationViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_explanation, container, false)
         val textView: TextView = root.findViewById(R.id.text_gallery)
-        galleryViewModel.text.observe(viewLifecycleOwner, Observer {
+        explanationViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root
