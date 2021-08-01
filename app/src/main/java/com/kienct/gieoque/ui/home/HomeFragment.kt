@@ -46,8 +46,13 @@ class HomeFragment : Fragment() {
             } else {
                 Log.d("amlich", "ERROR! " + s[0] + "/" + s[1] + "/" + s[2] + " -> " + l[0] + "/" + l[1] + "/" + l[2] + if (l[3] == 0) "" else " nhuận")
             }
+            addHistory()
             startActivity(intent)
         }
         return root
+    }
+
+    private fun addHistory() {
+        TODO("Not yet implemented")
     }
 }
