@@ -11,4 +11,8 @@ class History(
     @ColumnInfo(name = "hex_name") val hexName: String,
     @ColumnInfo(name = "solar_date") val sDate: String,
     @ColumnInfo(name = "lunar_date") val lDate: String,
-)
+){
+    override fun toString(): String {
+        return "History(id=$id, hexID='$hexID', hexName='$hexName', sDate='$sDate', lDate='$lDate')\n"
+    }
+}

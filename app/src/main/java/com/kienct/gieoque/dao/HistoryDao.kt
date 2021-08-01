@@ -1,11 +1,8 @@
 package com.kienct.gieoque.dao
 
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 import com.kienct.gieoque.entities.History
-
+@Dao
 interface HistoryDao {
     @Query("SELECT * FROM history_table ORDER BY hex_id DESC")
     fun getAllHistories(): List<History>
