@@ -1,14 +1,16 @@
-package com.kienct.gieoque.ui.slideshow
+package com.kienct.gieoque.ui.history
 
 import android.os.AsyncTask
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.kienct.gieoque.R
+import com.kienct.gieoque.adapters.HistoryAdapter
 import com.kienct.gieoque.client.DatabaseClient
 import com.kienct.gieoque.entities.History
 
@@ -20,9 +22,8 @@ class HistoryFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_slideshow, container, false)
+        val root = inflater.inflate(R.layout.fragment_history, container, false)
         getHistory()
-        textView = root.findViewById(R.id.text_slideshow)
         return root
     }
 
@@ -40,7 +41,12 @@ class HistoryFragment : Fragment() {
 
             override fun onPostExecute(result: List<History>?) {
                 super.onPostExecute(result)
-                textView.text = s
+                val historyAdapter = result?.let { HistoryAdapter(it) }
+                val rv = view?.findViewById<RecyclerView>(R.id.rvHistory)
+                if (rv != null) {
+                    rv.layoutManager = LinearLayoutManager(context)
+                    rv.adapter = historyAdapter
+                }
             }
         }
 

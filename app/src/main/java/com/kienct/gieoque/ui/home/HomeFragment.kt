@@ -42,7 +42,6 @@ class HomeFragment : Fragment() {
             val l = VietCalendar.convertSolar2Lunar(s[0], s[1], s[2], timeZone)
             val s2 = VietCalendar.convertLunar2Solar(l[0], l[1], l[2], l[3], timeZone)
             val intent = Intent(this.context, ResultActivity::class.java)
-            intent.putExtra("hexID", queChuID)
             val sDate = SimpleDateFormat("HH:mm:ss dd/MM/yyyy").format(date)
             intent.putExtra("solarCal", sDate)
             val lDate: String = if (s[0] == s2[0] && s[1] == s2[1] && s[2] == s2[2]) {

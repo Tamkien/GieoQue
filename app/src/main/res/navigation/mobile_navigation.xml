@@ -19,17 +19,17 @@
 
     <fragment
         android:id="@+id/nav_history"
-        android:name="com.kienct.gieoque.ui.slideshow.HistoryFragment"
+        android:name="com.kienct.gieoque.ui.history.HistoryFragment"
         android:label="Lịch sử"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_history" />
     <fragment
         android:id="@+id/nav_browse"
         android:name="com.kienct.gieoque.ui.BrowseFragment"
         android:label="Tra cứu"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_history" />
     <fragment
         android:id="@+id/nav_about_me"
         android:name="com.kienct.gieoque.ui.CreditFragment"
         android:label="Tác giả"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_history" />
 </navigation>
